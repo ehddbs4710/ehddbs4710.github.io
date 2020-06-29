@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		list-style-type: none;
+	}
+	a:link{
+		color:blue; text-decoration:none;
+	} 
+	a:visited{
+		color:blue; text-decoration:none;
+	} 
+	a:active{
+		color:black; text-decoration:none;
+	}
+	a:hover{
+		color:black; text-decoration:none;
+	}
+	.clear{
+		clear: both;
+	}
+	#page{
+		width: 1300px;
+		margin: auto;
+	}
+	header{
+		width: 1300px;
+		height: 100px;
+		margin-top: 10px;
+	}
+	#logo{
+		float: left;
+		margin-top: 10px;
+	}
+	#top{
+		float: right;
+		margin: 30px 20px 0 0;
+	}
+	nav{
+		width: 1300px;
+		height: 70px;
+		margin-top: 10px;
+		border-bottom: solid 1px gray;
+	}
+	nav li{
+		display: inline-block;
+		margin: 20px 30px;
+	}
+	nav li:hover{
+		padding-bottom: 28px;
+		border-bottom: solid 2px #4D9E8A;
+		color: #4D9E8A;
+	}
+	nav li a:hover{
+		color: #4D9E8A;
+	}
+	section{
+		width: 268px;
+		float: left;
+	}
+	#title{
+		color: gray;
+		font-size: 24px;
+		border-bottom: solid 2px #D4D8DC;
+		padding-bottom: 20px;
+		margin-top: 50px;
+	}
+	#box0{
+		width: 268px;
+		height: 50px;
+		display: inline-block;
+		text-align: left;
+		background-color: #4D9E8A;
+		color: white;
+	}
+	#box0 li{
+		padding: 12px 0 5px 10px;
+	}
+	#text li{
+		border-bottom: solid 1px gray;
+		padding: 15px 0 15px 10px;
+	}
+	#text0{
+		float: right;
+		padding-right: 10px;
+	}
+	#text1{
+		float: right;
+		transition: transform 0.3s ease-in-out;
+	}
+	#text1:hover{
+		transform: rotate(180deg);
+	}
+	aside{
+		float: left;
+		margin-top: 11px;
+	}
+	aside li{
+		margin-bottom: 30px;
+	}
+	#sub1{
+		float: left;
+		padding-right: 5px;
+		margin-bottom: -20px;
+	}
+	#sub2{
+		text-align: right;
+		float: right;
+	}
+	#list{
+		float: left;
+		padding-left: 290px;
+		text-align: left;
+	}
+	#list ul{
+		padding-left: 27px;
+		line-height: 3px;
+	}
+	#list1{
+		list-style: circle;
+		color: #163660;
+	}
+	#list2{
+		list-style: disc;
+	}
+	#blue{
+		color: #23518B;
+		text-decoration: underline;
+	}
+	footer{
+		width: 1300px;
+		height: 100px;
+		margin: 10px 0 10px 0;
+	}
+	#address{
+		float: left;
+		margin: 10px 0 0 0;
+	}
+	#customer{
+		float: right;
+		margin: 10px 0 0 80px;
+	}
+	</style>
+</head>
+<body id="page">
+<header>
+	<div id="logo">
+		<a href="index.html"target='_blank'><img src="./img/h.png"></a>
+	</div>
+	<div id="top">
+		로그인ㅣ회원가입ㅣ<a href="test1.html"target='_blank'>마이페이지</a>ㅣ고객센터
+	</div>
+</header>
+<div class="clear"></div>
+<nav>
+	<ul>
+		<li><a href="index3.html"target='_blank'>감염병</a></li>
+		<li><a href="index5.html"target='_blank'>건강정책</a></li>
+		<li>정책정보</li>
+		<li><a href="index2.html"target='_blank'>연구개발</a></li>
+		<li>알림·자료</li>
+		<li>간행물·통계</li>
+		<li>민원·정보공개</li>
+		<li><a href="index4.html"target='_blank'>기관소개</a></li>
+		<li>사업별홈페이지</li>
+	</ul>
+</nav>
+<section>
+	<div id="title">감염병</div>
+	<ul id="box0">
+		<li>감염병정보<span id="text0"><img src="./img/iii1.png" width="13"></span></li>
+	</ul>
+	<ul id="text">
+		<li>해외감염병정보<span id="text1"><img src="./img/iii2.png" width="13"></span></li>
+		<a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppIssueIcdMain.do"target='_blank'><li>감염병유행정보<img src="./img/i11.png" width="15"><span id="text1"><img src="./img/iii2.png" width="13"></span></li></a>
+		<a href="http://tbzero.cdc.go.kr/tbzero/main.do?pageEvent=N"target='_blank'><li>결핵<img src="./img/i11.png" width="15"><span id="text1"><img src="./img/iii2.png" width="13"></span></li></a>
+		<a href="https://nip.cdc.go.kr/irgd/index.html"target='_blank'><li>예방접종<img src="./img/i11.png" width="15"><span id="text1"><img src="./img/iii2.png" width="13"></span></li></a>
+		<li>감염병간행물<span id="text1"><img src="./img/iii2.png" width="13"></span></li>
+	</ul>
+</section>
+<aside>
+	<ul id="sub1">
+		<a href="http://www.cdc.go.kr/npt/biz/npp/nppMain.do"target='_blank'><li><img src="./img/ss3.png" width="890"></li></a>
+	</ul>                      
+	<ul id="sub2">
+		<li>사용자별 맞춤메뉴</li>
+		<li>일반인</li>
+		<li>연구자</li>
+		<li>언론인</li>
+	</ul>
+	<div class="clear"></div>
+</aside>
+<aside>
+	<div id="list">
+		<h3><li id="list1">감염병포털 소개</li></h3>
+	<ul>
+		<li>법정감염병(전수/표본)의 현황(통계) 및 올바른 정보를 국민들이 쉽게 접근할 수 있는 <span id="blue">감염병 정보 포털사이트</span> <img src="./img/i12.png" width="14"></li>
+	</ul>
+		<h3><li id="list1">통계</li></h3>
+	<ul>
+		<li id="list2"><span id="blue">전수감시 감염병</span> <img src="./img/i12.png" width="14">: 전수감시 감염병에 대한 주요통계, 질병별 통계, 지역별 통계, 성별/연령별 통계에 대한 통계</li>
+		<li id="list2"><span id="blue">표본감시 감염병</span> <img src="./img/i12.png" width="14">: 표본감시 감염병에 대한 통계</li>
+		<li id="list2"><span id="blue">비브리오 감시</span> <img src="./img/i12.png" width="14">: 해수에서 측정한 비브리오 통계</li>
+	</ul>
+		<h3><li id="list1"><span id="blue">지침</span> <img src="./img/i12.png" width="18"></li></h3>
+	<ul>
+		<li id="list2">법정감염병의 증상, 진단 및 치료, 신고기준, 예방과 같은 정보</li>
+		<li id="list2">감염병 관리, 각 기관에서 해야하는 수행체계, 감시체계, 실험실 검사, 역학조사, 환자관리/접촉자 관리, 방역관리에 대한 정보</li>
+	</ul>
+		<h3><li id="list1">발간자료</li></h3>
+	<ul>
+		<li id="list2"><span id="blue">감시연보</span> <img src="./img/i12.png" width="14">: 감염병 신고·보고된 법정감염병 현황을 분석 정리한 자료</li>
+		<li id="list2"><span id="blue">역학조사연보</span> <img src="./img/i12.png" width="14">: 시·군·구 역학조사반의 신고 접수된 수인성·식품매개 감염병 집단발생에 분석 정리한 자료</li>
+		<li id="list2"><span id="blue">주간소식지</span> <img src="./img/i12.png" width="14">: 표본감시 감염병 주간 정보</li>
+		<li id="list2"><span id="blue">실험실 소식지 정보</span> <img src="./img/i12.png" width="14">: 병원체 및 매개체 주간 감시 정보</li>
+	</ul>
+	</div>
+</aside>
+<div class="clear"></div>
+<footer>
+	<div id="address">
+		<img src="./img/f1.png">
+	</div>
+	<div id="customer">
+		<img src="./img/f2.png">
+	</div>
+</footer>
+</body>
+</html>
